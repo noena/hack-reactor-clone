@@ -1,0 +1,169 @@
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css?family=Maven+Pro'); /*default font */
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
+
+body{
+  background-color: #FFFFFF;
+  margin: 0 0 0 0;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 14px;
+  color: #585858;
+}
+img.icon {
+  width:50px;
+  height:auto;
+}
+img.logo {
+  width:150px;
+  height:auto;
+  float: right;
+}
+a.body{
+  color: #0090D9;
+  text-decoration: none;
+}
+a.rightnav{
+  color: #FFFFFF;
+  text-decoration: none;
+}
+a.nav{
+  color: #585858;
+  text-decoration: none;
+  text-align: center;
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+  justify-content: center;
+}
+div.holder{
+  width: 100%;
+  float: left;
+}
+div.dummy{
+  height:100px;
+}
+div.navigation-bar{
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #FFFFFF;
+  padding-top: 30px;
+  text-align: center;
+}
+div.column-highlight{
+  width: 100%;
+  float: left;
+  height: 450px;
+  background-image: url(../images/events.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  color: #FFFFFF;
+  text-align: center;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+}
+div.column-highlight2{
+  width: 60%;
+}
+h1.highlight{
+  font-size: 60px;
+  font-family: arial;
+}
+div.column-left{
+  width:20%;
+  float: left;
+}
+div.column-middle{
+  width:60%;
+  float: left;
+}
+div.center{
+  align-self: center;
+  padding-left: 100px;
+}
+ul.topnav {
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+ul.topnav li {
+  float: left;
+}
+ul.topnav li a {
+  display: block;
+  color: #585858;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+ul.topnav li a:hover {
+    color: #0090d9;
+}
+div.column-right{
+  width:20%;
+  float: left;
+}
+div.navright{
+  background-color: #0090D9;
+  width:150px;
+  height:40px;
+  color: #FFFFFF;
+  font-size: 14px;
+  text-align: center;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+}
+div.button{
+  background-color: #FFA500;
+  width:150px;
+  height:40px;
+  color: #FFFFFF;
+  font-size: 14px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+div.column-snippet{
+  width: 30%;
+  float: left;
+  background-color: #FFFFFF;
+  text-align: center;
+  padding: 8px;
+}
+h2{
+  font-size: 20px;
+  font-weight: bold;
+}
+h2.hostevent{
+  font-size: 40px;
+}
+div.column-hostevent{
+  width: 100%;
+  float: left;
+  height: 250px;
+  background-color: #DCDCDC;
+  color: #585858;
+  text-align: center;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+}
+div.column-hostevent2{
+  font-size: 16px;
+}
+div.column-highlight2{
+  width: 60%;
+}
+h1.highlight{
+  font-size: 60px;
+  font-family: arial;
+}
