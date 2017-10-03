@@ -86,9 +86,9 @@ div.center{
 }
 ul.topnav {
 	list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
 }
 ul.topnav li {
   float: left;
@@ -145,12 +145,26 @@ h2{
 h2.hostevent{
   font-size: 40px;
 }
+h2.workshop{
+  font-size: 45px;
+}
 div.column-hostevent{
   width: 100%;
   float: left;
   height: 250px;
   background-color: #DCDCDC;
   color: #585858;
+  text-align: center;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+}
+div.column-workshop{
+  width: 100%;
+  float: left;
+  height: 100px;
+  background-color: #FFFFFF;
   text-align: center;
   display: flex;
   flex-flow: column;
