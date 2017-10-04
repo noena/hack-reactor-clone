@@ -80,6 +80,18 @@ div.column-middle{
   width:60%;
   float: left;
 }
+div.calendar-left{
+  width:10%;
+  float: left;
+}
+div.calendar-middle{
+  width:60%;
+  float: left;
+}
+div.calendar-right{
+  width:30%;
+  float: left;
+}
 div.center{
   align-self: center;
   padding-left: 100px;
@@ -119,6 +131,57 @@ div.navright{
   align-items: center;
   justify-content: center;
 }
+div.country{
+  align-self: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+ul.countrynav {
+	list-style-type: none;
+  margin: 20;
+}
+ul.countrynav li {
+  float: left;
+  padding-right: 30px;
+}
+ul.countrynav li a {
+  display: block;
+  color: #585858;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  background-color: #FFFFFF;
+  border: solid;
+  border-color: #A9A9A9;
+  size:24px;
+}
+ul.faq li a {
+  color: #585858;
+  text-align: left;
+  padding: 14px 16px;
+  text-decoration: none;
+  background-color: #FFFFFF;
+  border-color: #A9A9A9;
+  size:24px;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+}
+ul.countrynav li a:hover {
+  color: #FFFFFF;
+  background-color: #696969;
+}
+ul.countrynav li a.chosen:hover {
+  color: #FFFFFF;
+  background-color: #696969;
+}
+ul.countrynav li a.chosen {
+  color: #FFFFFF;
+  background-color: #A9A9A9;
+}
 div.button{
   background-color: #FFA500;
   width:150px;
@@ -129,7 +192,6 @@ div.button{
   display: flex;
   align-items: center;
   justify-content: center;
-
 }
 div.column-snippet{
   width: 30%;
@@ -147,6 +209,9 @@ h2.hostevent{
 }
 h2.workshop{
   font-size: 45px;
+}
+h2.faq{
+  font-size: 30px;
 }
 div.column-hostevent{
   width: 100%;
@@ -171,6 +236,45 @@ div.column-workshop{
   align-items: center;
   justify-content: center;
 }
+div.column-faq{
+  margin-top: 50px;
+  width: 100%;
+  float: left;
+  height: 600px;
+  background-color: #d3d3d3;
+  text-align: center;
+}
+div.question{
+  width: 50%;
+  background-color: #FFFFFF;
+  text-align: left;
+  display: flex;
+  flex-flow: column;
+  border-width: medium;
+  border-color: #d3d3d3;
+  border-style: solid;
+  padding: 10px;
+  margin-left: 25%;
+  color: #0090D9;
+  float: left;
+  size: 20px;
+}
+div.answer {
+  width: 50%;
+  background-color: #d3d3d3;
+  display: none;
+  color:#000000;
+  overflow: hidden;
+  text-align: left;
+  flex-flow: column;
+  border-width: medium;
+  float: left;
+  margin-left: 380px;
+  margin-right: 60px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
 div.column-hostevent2{
   font-size: 16px;
 }
